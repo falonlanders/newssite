@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Falon's News</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script defer src="app.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;300;900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <img id="newsphoto" src="https://i.pinimg.com/originals/26/91/f2/2691f2fa1a0f078f5f274edf7fea6763.png" />
+  </header>
+  <div id="centerForm">
+    <form>
+      <div class="one"><input type="text" id="search" placeholder="Search..." /></div>
+
+      <div class="one">
+        <label for="category">Categories</label>
+        <select id="category"> </select>
+      </div>
+
+      <div class="one">
+        <label for="language">Languages</label>
+        <select id="language"> </select>
+      </div>
+
+      <div class="one">
+        <label for="region">Region&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <select id="region"> </select>
+      </div>
+
+
+      <label for="#startDate">From&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="date" id="startDate"><br>
+
+
+
+      <label
+        for="#endDate">To&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="date" id="endDate"><br><br>
+
+
+
+
+      <div class="one"><button id="searchButton">S E A R C H</button></div>
+    </form>
+  </div>
+  <div id="center">
+    <div id="results"></div>
+  </div>
+
+
+  <div class="footer">
+    <div id="button"></div>
+    <div id="container">
+      <div id="cont">
+        <div class="footer_center">
+          <h2>Made by Falon B. Landers</h2>
+          <img id="ron" src="https://i.pinimg.com/originals/5e/9a/ff/5e9affd0a334d040d3cfc18ab833a5f5.gif" />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
